@@ -18,9 +18,6 @@
         "php": ">=7.0.0"
     },
     "autoload": {
-    	"files": [
-            "database/seeds/ChangelogTableSeeder.php"
-        ],
         "psr-4": {
             "Bpocallaghan\\Changelogs\\": "app/"
         }
