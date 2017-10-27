@@ -1,0 +1,35 @@
+{
+    "name": "bpocallaghan/changelogs",
+    "description": "Add changelogs to your laravel admin project - https://github.com/bpocallaghan/laravel-admin-starter",
+    "keywords": [
+        "laravel",
+        "admin",
+        "cms",
+        "changelogs"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben-Piet O'Callaghan",
+            "email": "bpocallaghan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+    	"files": [
+            "database/seeds/ChangelogTableSeeder.php"
+        ],
+        "psr-4": {
+            "Bpocallaghan\\Changelogs\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+
+            ]
+        }
+    }
+}
